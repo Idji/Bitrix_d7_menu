@@ -4,6 +4,7 @@ Menu from sections and elements
 Component to use in menuname_ext.php file.
 usage like:
 
+```
 <?php
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 global $APPLICATION; 
@@ -25,3 +26,4 @@ $aMenuLinksExt=$APPLICATION->IncludeComponent(
 
 $aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
 ?>
+```
